@@ -12,7 +12,7 @@ class N6_Reverse_an_Array {
     	    int length = scanner.nextInt();
     	    List<Integer> list = new ArrayList<>();
     	    for (int index2 = 0; index2 < length; index2 += 1) { 
-              list.add(scanner.nextInt());
+                list.add(scanner.nextInt());
     	    }
             Collections.reverse(list);
             for (Integer item : list) {
