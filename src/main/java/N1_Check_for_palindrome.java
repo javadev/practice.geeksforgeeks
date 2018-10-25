@@ -10,8 +10,7 @@ class N1_Check_for_palindrome {
         int count = scanner.nextInt();
         for (int index = 0; index < count; index += 1) {
     	    scanner.nextInt();
-            scanner.nextLine();
-    	    String line = scanner.nextLine();
+    	    String line = scanner.next();
             if (new StringBuilder(line).reverse().toString().equals(line)) {
                 System.out.println("Yes");
             } else {
