@@ -1,4 +1,4 @@
-﻿public class N_Implement_strstr
+public class N_Implement_strstr
 {
     int strstr(String s, String x)
     {
